@@ -98,6 +98,11 @@
       </noscript>
       <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
    </head>
+
+
+
+
+   
    <body class="home page-template page-template-elementor_canvas page page-id-10 wp-custom-logo elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-10">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" >
          <defs>
@@ -1194,62 +1199,30 @@
                      <div class="elementor-element elementor-element-f660bc6 elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="f660bc6" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Pr\u00f3ximo&quot;,&quot;step_previous_label&quot;:&quot;Anterior&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
                         <div class="elementor-widget-container">
                            <style></style>
-                           <form action=" " class="elementor-form" method="post" name="Novo formulário">
-                              <input type="hidden" name="post_id" value="10"/>
-                              <input type="hidden" name="form_id" value="f660bc6"/>
-                              <input type="hidden" name="referer_title" value="" />
-                              <input type="hidden" name="queried_id" value="10"/>
-                              <div class="elementor-form-fields-wrapper elementor-labels-above">
-                                 <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50 elementor-field-required">
-                                    <label for="form-field-name" class="elementor-field-label">
-                                    Nome							</label>
-                                    <input size="1" type="text" name="form_fields[name]" id="form-field-name" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Nome" required="required" aria-required="true">
-                                 </div>
-                                 <div class="elementor-field-type-maskphone_with_ddd elementor-field-group elementor-column elementor-field-group-field_0618f4f elementor-col-50 elementor-field-required">
-                                    <label for="form-field-field_0618f4f" class="elementor-field-label">
-                                    Telefone							</label>
-                                    <input size="1" type="tel" name="form_fields[field_0618f4f]" id="form-field-field_0618f4f" class="elementor-field elementor-size-sm  elementor-field-textual phone_with_ddd" required="required" aria-required="true" placeholder="Telefone">				
-                                 </div>
-                                 <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
-                                    <label for="form-field-email" class="elementor-field-label">
-                                    E-mail							</label>
-                                    <input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="E-mail" required="required" aria-required="true">
-                                 </div>
-                                 <div class="elementor-field-type-select elementor-field-group elementor-column elementor-field-group-field_606e3e8 elementor-col-100 elementor-field-required">
-                                    <label for="form-field-field_606e3e8" class="elementor-field-label">
-                                    Tipo de consórcio							</label>
-                                    <div class="elementor-field elementor-select-wrapper remove-before ">
-                                       <div class="select-caret-down-wrapper">
-                                          <i aria-hidden="true" class="eicon-caret-down"></i>			
-                                       </div>
-                                       <select name="form_fields[field_606e3e8]" id="form-field-field_606e3e8" class="elementor-field-textual elementor-size-sm" required="required" aria-required="true">
-                                          <option value="Imóveis">Imóveis</option>
-                                          <option value="Automóveis">Automóveis</option>
-                                          <option value="Carta Contemplada">Carta Contemplada</option>
-                                       </select>
+                          
+                          
+                          
+                           <form action="https://api.staticforms.xyz/submit" method="post" name="Novo formulário">
+                              <input type="hidden" name="accessKey" value="b3e75bb2-39fc-46d7-ada4-a04edf0948cd">
+                              <input type="hidden" name="redirectTo" value="#">                       
+                              <input type="text" placeholder="Nome" name="$Nome">
+                              <br> <br>
+                               <input type="number" placeholder="Telefone" name="$Telefone">
+                                 <br> <br>
+                               <input type="email" placeholder="E-mail" name="$Email">
+                            <br> <br>
+                            <p>Escolha o que você quer!</p>
+                           <input type="text" placeholder="Imóveis, Automóvies e carta contemplada" name="$Imóveis, Automóveis e carta contemplada">
+                                 <input type="submit">
+                              
                                     </div>
                                  </div>
-                                 <div class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-field_44c40ae elementor-col-100 elementor-field-required">
-                                    <label for="form-field-field_44c40ae" class="elementor-field-label">
-                                    Valor do crédito							</label>
-                                    <input type="number" name="form_fields[field_44c40ae]" id="form-field-field_44c40ae" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Valor do crédito" required="required" aria-required="true" min="" max="" >
-                                 </div>
-                                 <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
-                                    <button type="submit" class="elementor-button elementor-size-sm">
-                                    <span >
-                                    <span class=" elementor-button-icon">
-                                    </span>
-                                    <span class="elementor-button-text">Enviar</span>
-                                    </span>
-                                    </button>
+                          
                                  </div>
                               </div>
                            </form>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
+                    
+                     
          </section>
        
       </div>
